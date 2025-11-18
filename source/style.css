@@ -85,8 +85,6 @@ font-family: sans-serif;
 
 }
 
-
-
 @media (orientation: landscape){
   .landscape {display: block;}
   .portrait {display: none;}
