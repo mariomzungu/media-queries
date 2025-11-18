@@ -1,5 +1,100 @@
 html, body{
+padding: 0;
+margin: 0;
 width: 100%;
 height: 100%;
-background-color: green;
+background-color: rgb(57, 161, 156);
+font-family: sans-serif;
 }
+
+.xs, .sm, .md, .lg, .xl, .xxl {
+  display: none;
+}
+
+
+/* Extra Small */
+@media (max-width: 575px){
+  html, body{
+    background-color: lightgreen;
+  }
+
+  .xs {
+    display: block;
+  }
+
+}
+
+/* Small */
+@media (min-width: 576px) and (max-width: 767px){
+  html, body{
+    background-color: lightsalmon;
+  }
+
+  .sm {
+    display: block;
+  }
+
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px){
+  html, body{
+    background-color: lightyellow;
+  }
+
+  .md {
+    display: block;
+  }
+
+}
+
+
+/* Large */
+@media (min-width: 992px) and (max-width: 1199px){
+  html, body{
+    background-color: lightpink;
+  }
+
+  .lg {
+    display: block;
+  }
+
+}
+
+/* Extra Large */
+@media (min-width: 1200px) and (max-width: 1399px){
+  html, body{
+    background-color: lightblue;
+  }
+
+  .xl {
+    display: block;
+  }
+
+}
+
+/* Extra Extra Large */
+@media (min-width: 1400px) {
+  html, body{
+    background-color: lightcoral;
+  }
+
+  .xxl {
+    display: block;
+  }
+
+}
+
+
+
+@media (orientation: landscape){
+  .landscape {display: block;}
+  .portrait {display: none;}
+}
+
+@media (orientation: portrait){
+  .portrait {display: block;}
+  .landscape {display: none;}
+}
+ 
+
